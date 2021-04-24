@@ -112,7 +112,7 @@ a {
     margin-bottom: 2.2rem;
 }
 
-.hero-button {
+.getstarted-button {
     margin-bottom: 2.3rem;
 }
 
@@ -169,7 +169,7 @@ a {
     padding: 50px 0 50px 0;
 }
 
-.connect-social-section {
+.connect-social-section, .master-skill-section {
     display: flex;
 }
 
@@ -183,10 +183,99 @@ a {
     margin-bottom: 1.2rem;
 }
 
-
-
-
 .connect-social-image {
     width: auto;
     height: auto;
+}
+
+/* master skill */
+
+
+.master-skill-wrapper {
+    background-color: #EEEBE8;
+    padding: 75px 0 50px 0;
+}
+
+
+.master-skill-right-text {
+    width: 50%;
+    margin-left: 50px;
+    align-self: center;
+}
+
+.right-heading {
+    align-self: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-right: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.learn-more-btn {
+    background-color: #EEEBE8;
+    border: 1px solid #143059;
+    color: #143059;
+    font-weight: 700;
+    padding: 1em 2.1em;
+    transition: 200ms all ease-out;
+}
+
+.learn-more-btn:hover {
+    background-color: #143059;
+    color: #ffffff;
+}
+
+/* testimonials  */
+
+.testimonial-section {
+    padding: 75px 0 50px 0;
+}
+
+.testimonial-heading {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 0 50px 0;
+
+}
+
+.testimonial-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.testimonial-logos img {
+    margin-left: 60px;
+}
+
+.schedualing-action-wrapper {
+    background-color: #143059;
+    padding: 75px 0 50px 0;
+    text-align: center;
+}
+
+.scheduling-heading {
+    font-size: 2.125rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 0 23px 0;
+}
+
+
+.scheduling-get-started {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 0.78em 1.825em;
+}
+
+.scheduling-getstarted-button {
+    margin-bottom: 23px;
+}
+
+.scheduling-compare-plans {
+    font-size: .875rem;
+    font-weight: 700;
 }
