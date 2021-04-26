@@ -205,7 +205,6 @@ a {
 
 
 .invest-section{
-
     margin-bottom: 80px;
 }
 
@@ -213,7 +212,7 @@ a {
 
 .connect-social-wrapper {
     background-color: #FCBB47;
-    padding: 50px 0 50px 0;
+    padding: 75px 0 75px 0;
 }
 
 .connect-social-section, .master-skill-section {
@@ -227,7 +226,7 @@ a {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     width: 50%;
-    margin-bottom: 1.2rem;
+    /* margin-bottom: 1.2rem; */
 }
 
 .connect-social-image {
@@ -240,7 +239,7 @@ a {
 
 .master-skill-wrapper {
     background-color: #EEEBE8;
-    padding: 75px 0 50px 0;
+    padding: 75px 0 75px 0;
 }
 
 
@@ -275,7 +274,7 @@ a {
 /* testimonials  */
 
 .testimonial-section {
-    padding: 75px 0 50px 0;
+    padding: 75px 0 75px 0;
 }
 
 .testimonial-heading {
@@ -294,13 +293,9 @@ a {
     margin: 0 auto;
 }
 
-.testimonial-logos img {
-    margin-left: 60px;
-}
-
 .schedualing-action-wrapper {
     background-color: #143059;
-    padding: 75px 0 50px 0;
+    padding: 75px 0 75px 0;
     text-align: center;
 }
 
@@ -394,13 +389,25 @@ a {
     .image-block.right-image {
         margin-right: -20%;
     }
+    .connect-social-image {
+        margin-right: -36%;
+    }
+    .master-skill-image {
+        margin-left: -36%;
+    }
 
+    .testimonial-logos {
+        width: 100%;
+    }
+    
 
+    .testimonial-logos img {
+        margin-left: 0px;
+    }
 
 }
 
 @media only screen and (max-width: 767px) {
-
     .hero-heading {
         font-size: 42px;
     }
@@ -409,7 +416,6 @@ a {
         font-size: 16px;
     }
 
-    
     .compare-plans {
         font-size: 13px;
     }
@@ -417,7 +423,6 @@ a {
     .getstarted-button {
         margin-bottom: 1.8rem;
     }
-    
 
     .get-started {
         font-size: 0.9em;
@@ -429,7 +434,6 @@ a {
         /* background: green; */
     }
 
-    
     .left-heading {
         width: 100%;
         text-align: center;
@@ -441,7 +445,7 @@ a {
        text-align: center;
         margin: 50px 0 0 0;
      }
-     
+
      .image-block.left-image {
         margin-left: initial;
     }
@@ -450,13 +454,13 @@ a {
         margin-right: initial;
     }
 
-.right-text {
-    margin-left: initial;
-}
+    .right-text {
+        margin-left: initial;
+    }
 
-.left-text {
-    margin-right: initial;
-}
+    .left-text {
+        margin-right: initial;
+    }
 
     .section.right-image-section {
         flex-direction: column-reverse;
@@ -464,12 +468,17 @@ a {
         margin-top: 50px;
     }
 
+
     .connect-social-section {
         flex-direction: column-reverse;
     }
     
     .master-skill-section {
         flex-direction: column;
+    }
+
+    .master-skill-image {
+        margin-left: 0;
     }
 
     .master-skill-right-text {
